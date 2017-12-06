@@ -6,7 +6,9 @@ package main
 // - Released (bool)
 // - Length (int)
 
-import "fmt"
+import (
+		"fmt"
+)
 
 type Movie struct {
 	Title string
@@ -28,4 +30,5 @@ func main() {
 	// Print the value of "movie" out
 	// hint: you can use fmt.Println(movie)
 	fmt.Println(movie)
+
 }
